@@ -1,0 +1,155 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and basic font */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+#home .hero {
+    background: url('https://thumbs.dreamstime.com/b/asian-food-background-various-cooking-ingredients-rustic-background-top-view-banner-concept-chinese-thai-66582124.jpg') center/cover no-repeat;
+    height: 300px;
+    color: rgb(252, 244, 244);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#home .hero h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+#home .hero p {
+    font-size: 1.3rem;
+}
+
+/* Menu Section */
+#menu {
+    padding: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+#menu h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.menu-item img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 20px;
+    justify-items: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+
+.menu-text h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-rows:repeat(2,1fr);
+}
+
+.menu-text p {
+    font-size: 1rem;
+    color: #555;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+}
+
+/* About Section */
+#about {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 1.2rem;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 1rem;
+}
